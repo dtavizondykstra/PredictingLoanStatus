@@ -81,8 +81,8 @@ The notebook is organized into the following sections:
 * Data Preparation: Encoding categorical variables and splitting data.
 * Handling Class Imbalance: Using SMOTE to balance the target classes.
 * Modeling:
- * Logistic Regression
- * Gradient Boosting Classifier
+  * Logistic Regression
+  * Gradient Boosting Classifier
 * Model Evaluation: Assessing model performance using accuracy, confusion matrices, and classification reports.
 To run the analysis:
 * Execute each cell sequentially in the notebook.
