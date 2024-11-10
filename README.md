@@ -1,5 +1,5 @@
-# Loan Approval Prediction Using Machine Learning README
- A machine learning approach to predict loan approval statuses, aiming to streamline the process for financial institutions.
+# Loan Approval Prediction Using Machine Learning
+ *A machine learning approach to predict loan approval statuses, aiming to streamline the process for financial institutions.*
 
 ### Overview
 This project aims to develop a machine learning model to predict the loan approval status of applicants, intending to automate and enhance the efficiency of the home loan application process for financial institutions. By analyzing historical loan application data, the model identifies patterns and trends that can assist in predicting whether a loan will be approved or not.
