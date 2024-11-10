@@ -11,24 +11,24 @@ The traditional home loan approval process is often manual, time-consuming, and 
 The dataset used for this project is the Loan Prediction Problem Dataset from Kaggle, created by Debdatta Chatterjee. It includes both training and testing sets with information on 614 loan applicants.
 
 ### Features
-* Loan_ID: Unique Loan ID
-* Gender: Male/Female
-* Married: Applicant married (Y/N)
-* Dependents: Number of dependents
-* Education: Graduate/Not Graduate
-* Self_Employed: Self-employed (Y/N)
-* ApplicantIncome: Applicant's income
-* CoapplicantIncome: Co-applicant's income
-* LoanAmount: Loan amount in thousands
-* Loan_Amount_Term: Term of loan in months
-* Credit_History: Credit history meets guidelines
-* Property_Area: Urban/Semi-Urban/Rural
-* Loan_Status: Loan approved (Y/N) [Target Variable]
+* `Loan_ID`: Unique Loan ID
+* `Gender`: Male/Female
+* `Married`: Applicant married (Y/N)
+* `Dependents`: Number of dependents
+* `Education`: Graduate/Not Graduate
+* `Self_Employed`: Self-employed (Y/N)
+* `ApplicantIncome`: Applicant's income
+* `CoapplicantIncome`: Co-applicant's income
+* `LoanAmount`: Loan amount in thousands
+* `Loan_Amount_Term`: Term of loan in months
+* `Credit_History`: Credit history meets guidelines
+* `Property_Area`: Urban/Semi-Urban/Rural
+* `Loan_Status`: Loan approved (Y/N) [Target Variable]
 
 ### Project Structure
-* LoanData.csv: The dataset file.
-* Loan_Status_Prediction.ipynb: Jupyter notebook containing all the code for data analysis, preprocessing, modeling, and evaluation.
-* README.md: Project documentation.
+* `LoanData.csv`: The dataset file.
+* `Loan_Status_Prediction.ipynb`: Jupyter notebook containing all the code for data analysis, preprocessing, modeling, and evaluation.
+* `README.md`: Project documentation.
 * Appendix: Contains supporting documentation, code snippets, and additional figures.
 
 ### Installation and Setup
@@ -73,7 +73,6 @@ pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn
 
 ### Usage
 The notebook is organized into the following sections:
-
 * Importing Libraries: All necessary libraries are imported.
 * Reading the Dataset: Loading the dataset into a pandas DataFrame.
 * Descriptive Statistics: Summary statistics of numerical and categorical variables.
@@ -91,12 +90,12 @@ To run the analysis:
 
 ### Results
 * Logistic Regression:
- * Training Accuracy: 80%
- * Testing Accuracy: 78%
+  * Training Accuracy: 80%
+  * Testing Accuracy: 78%
 * Gradient Boosting Classifier:
- * Training Accuracy: 88%
- * Testing Accuracy: 84%
- * Cross-Validation Score: Approximately 85%
+  * Training Accuracy: 88%
+  * Testing Accuracy: 84%
+  * Cross-Validation Score: Approximately 85%
 
 The Gradient Boosting Classifier outperformed the Logistic Regression model, indicating better predictive capabilities.
 
